@@ -1,0 +1,196 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Windows12]
+@="Windows12"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Windows12\Winlogon]
+"AutoRestartShell"=dword:00000001
+"Background"="0 0 0"
+"CachedLogonsCount"="10"
+"DebugServerCommand"="no"
+"DefaultDomainName"=""
+"DefaultUserName"="New"
+"DisableBackButton"=dword:00000001
+"EnableSIHostIntegration"=dword:00000001
+"ForceUnlockLogon"=dword:00000000
+"LegalNoticeCaption"=""
+"LegalNoticeText"=""
+"PasswordExpiryWarning"=dword:00000005
+"PowerdownAfterShutdown"="0"
+"PreCreateKnownFolders"="{A520A1A4-1780-4FF6-BD18-167343C5AF16}"
+"ReportBootOk"="1"
+"Shell"="explorer.exe"
+"ShellCritical"=dword:00000000
+"ShellInfrastructure"="sihost.exe"
+"SiHostCritical"=dword:00000000
+"SiHostReadyTimeOut"=dword:00000000
+"SiHostRestartCountLimit"=dword:00000000
+"SiHostRestartTimeGap"=dword:00000000
+"Userinit"="C:\\Windows\\system32\\userinit.exe,"
+"VMApplet"="SystemPropertiesPerformance.exe /pagefile"
+"WinStationsDisabled"="0"
+"ShellAppRuntime"="ShellAppRuntime.exe"
+"scremoveoption"="0"
+"DisableCAD"=dword:00000001
+"LastLogOffEndTimePerfCounter"=hex(b):6f,66,d8,9a,00,00,00,00
+"ShutdownFlags"=dword:00000013
+"AutoAdminLogon"="0"
+"DisableLockWorkstation"=dword:00000000
+"EnableFirstLogonAnimation"=dword:00000001
+"AutoLogonSID"="S-1-5-21-1791151667-2509712680-1466674391-1001"
+"LastUsedUsername"="New"
+"DisplayName"=hex(2):40,00,77,00,6c,00,67,00,70,00,63,00,6c,00,6e,00,74,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,31,00,30,00,30,00,00,00
+"DllName"=hex(2):77,00,6c,00,67,00,70,00,63,00,6c,00,6e,00,74,00,2e,00,64,00,\
+  6c,00,6c,00,00,00
+"GenerateGroupPolicy"="GenerateWLANPolicy"
+"NoGPOListChanges"=dword:00000001
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicyEx"="ProcessWLANPolicyEx"
+"DisplayName"=hex(2):40,00,67,00,70,00,70,00,72,00,65,00,66,00,63,00,6c,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,31,00,00,00
+"DllName"="C:\\Windows\\System32\\gpprefcl.dll"
+"EnableAsynchronousProcessing"=dword:00000001
+"EventSources"="(Group Policy Environment,Application)"
+"GenerateGroupPolicy"="GenerateGroupPolicyEnviron"
+"PerUserLocalSettings"=dword:00000001
+"ProcessGroupPolicy"="ProcessGroupPolicyEnviron"
+"ProcessGroupPolicyEx"="ProcessGroupPolicyExEnviron"
+"DllName"=hex(2):41,00,70,00,70,00,4d,00,61,00,6e,00,61,00,67,00,65,00,6d,00,\
+  65,00,6e,00,74,00,43,00,6f,00,6e,00,66,00,69,00,67,00,75,00,72,00,61,00,74,\
+  00,69,00,6f,00,6e,00,2e,00,64,00,6c,00,6c,00,00,00
+"ProcessGroupPolicy"="ProcessUevPolicy"
+"RequiresSuccessfulRegistry"=dword:00000001
+"DisplayName"=hex(2):40,00,61,00,75,00,64,00,69,00,74,00,63,00,73,00,65,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,34,00,30,00,30,00,30,00,00,00
+"DllName"=hex(2):61,00,75,00,64,00,69,00,74,00,63,00,73,00,65,00,2e,00,64,00,\
+  6c,00,6c,00,00,00
+"EnableAsynchronousProcessing"=dword:00000001
+"ForceRefreshFG"=dword:00000000
+"GenerateGroupPolicy"="GenerateGroupPolicyCap"
+"MaxNoGPOListChangesInterval"=dword:00000078
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicyEx"="ProcessGroupPolicyExCap"
+"DisplayName"=hex(2):40,00,67,00,70,00,70,00,72,00,65,00,66,00,63,00,6c,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,32,00,00,00
+"DllName"="C:\\Windows\\System32\\gpprefcl.dll"
+"EnableAsynchronousProcessing"=dword:00000001
+"EventSources"="(Group Policy Local Users and Groups,Application)"
+"GenerateGroupPolicy"="GenerateGroupPolicyLocUsAndGroups"
+"PerUserLocalSettings"=dword:00000001
+"ProcessGroupPolicy"="ProcessGroupPolicyLocUsAndGroups"
+"ProcessGroupPolicyEx"="ProcessGroupPolicyExLocUsAndGroups""DisplayName"=hex(2):40,00,67,00,70,00,70,00,72,00,65,00,66,00,63,00,6c,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,00,00
+"DllName"="C:\\Windows\\System32\\gpprefcl.dll"
+"EnableAsynchronousProcessing"=dword:00000001
+"EventSources"="(Group Policy Device Settings,Application)"
+"GenerateGroupPolicy"="GenerateGroupPolicyDevices"
+"PerUserLocalSettings"=dword:00000001
+"ProcessGroupPolicy"="ProcessGroupPolicyDevices"
+"ProcessGroupPolicyEx"="ProcessGroupPolicyExDevices"
+"DisplayName"=hex(2):40,00,66,00,64,00,65,00,70,00,6c,00,6f,00,79,00,2e,00,64,\
+  00,6c,00,6c,00,2c,00,2d,00,32,00,36,00,31,00,00,00
+"DllName"=hex(2):66,00,64,00,65,00,70,00,6c,00,6f,00,79,00,2e,00,64,00,6c,00,\
+  6c,00,00,00
+"EventSources"=hex(7):28,00,46,00,6f,00,6c,00,64,00,65,00,72,00,20,00,52,00,65,\
+  00,64,00,69,00,72,00,65,00,63,00,74,00,69,00,6f,00,6e,00,2c,00,41,00,70,00,\
+  70,00,6c,00,69,00,63,00,61,00,74,00,69,00,6f,00,6e,00,29,00,00,00,00,00
+"GenerateGroupPolicy"="GenerateGroupPolicy"
+"NoBackgroundPolicy"=dword:00000000
+"NoGPOListChanges"=dword:00000000
+"NoMachinePolicy"=dword:00000001
+"NoSlowLink"=dword:00000001
+"PerUserLocalSettings"=dword:00000001
+"ProcessGroupPolicyEx"="ProcessGroupPolicyEx"
+"DisplayName"=hex(2):40,00,67,00,70,00,70,00,72,00,65,00,66,00,63,00,6c,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,32,00,32,00,00,00
+"DllName"="C:\\Windows\\System32\\gpprefcl.dll"
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicy"="ProcessGroupPolicyMitigationOptions"
+"RequiresSuccessfulRegistry"=dword:00000001
+"DllName"=hex(2):41,00,70,00,70,00,4d,00,61,00,6e,00,61,00,67,00,65,00,6d,00,\
+  65,00,6e,00,74,00,43,00,6f,00,6e,00,66,00,69,00,67,00,75,00,72,00,61,00,74,\
+  00,69,00,6f,00,6e,00,2e,00,64,00,6c,00,6c,00,00,00
+"ProcessGroupPolicy"="ProcessAppVPolicy"
+"RequiresSuccessfulRegistry"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Windows12\winstation]
+"AutoAdminLogon"="0"
+"DisableLockWorkstation"=dword:00000000
+"EnableFirstLogonAnimation"=dword:00000001
+"AutoLogonSID"="S-1-5-21-1791151667-2509712680-1466674391-1001"
+"LastUsedUsername"="New"
+"DisplayName"=hex(2):40,00,77,00,6c,00,67,00,70,00,63,00,6c,00,6e,00,74,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,31,00,30,00,30,00,00,00
+"DllName"=hex(2):77,00,6c,00,67,00,70,00,63,00,6c,00,6e,00,74,00,2e,00,64,00,\
+  6c,00,6c,00,00,00
+"GenerateGroupPolicy"="GenerateWLANPolicy"
+"NoGPOListChanges"=dword:00000001
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicyEx"="ProcessWLANPolicyEx"
+"DisplayName"=hex(2):40,00,67,00,70,00,70,00,72,00,65,00,66,00,63,00,6c,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,31,00,00,00
+"DllName"="C:\\Windows\\System32\\gpprefcl.dll"
+"EnableAsynchronousProcessing"=dword:00000001
+"EventSources"="(Group Policy Environment,Application)"
+"GenerateGroupPolicy"="GenerateGroupPolicyEnviron"
+"PerUserLocalSettings"=dword:00000001
+"ProcessGroupPolicy"="ProcessGroupPolicyEnviron"
+"ProcessGroupPolicyEx"="ProcessGroupPolicyExEnviron"
+"DllName"=hex(2):41,00,70,00,70,00,4d,00,61,00,6e,00,61,00,67,00,65,00,6d,00,\
+  65,00,6e,00,74,00,43,00,6f,00,6e,00,66,00,69,00,67,00,75,00,72,00,61,00,74,\
+  00,69,00,6f,00,6e,00,2e,00,64,00,6c,00,6c,00,00,00
+"ProcessGroupPolicy"="ProcessUevPolicy"
+"RequiresSuccessfulRegistry"=dword:00000001
+"DisplayName"=hex(2):40,00,61,00,75,00,64,00,69,00,74,00,63,00,73,00,65,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,34,00,30,00,30,00,30,00,00,00
+"DllName"=hex(2):61,00,75,00,64,00,69,00,74,00,63,00,73,00,65,00,2e,00,64,00,\
+  6c,00,6c,00,00,00
+"EnableAsynchronousProcessing"=dword:00000001
+"ForceRefreshFG"=dword:00000000
+"GenerateGroupPolicy"="GenerateGroupPolicyCap"
+"MaxNoGPOListChangesInterval"=dword:00000078
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicyEx"="ProcessGroupPolicyExCap"
+"DisplayName"=hex(2):40,00,67,00,70,00,70,00,72,00,65,00,66,00,63,00,6c,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,32,00,00,00
+"DllName"="C:\\Windows\\System32\\gpprefcl.dll"
+"EnableAsynchronousProcessing"=dword:00000001
+"EventSources"="(Group Policy Local Users and Groups,Application)"
+"GenerateGroupPolicy"="GenerateGroupPolicyLocUsAndGroups"
+"PerUserLocalSettings"=dword:00000001
+"ProcessGroupPolicy"="ProcessGroupPolicyLocUsAndGroups"
+"ProcessGroupPolicyEx"="ProcessGroupPolicyExLocUsAndGroups""DisplayName"=hex(2):40,00,67,00,70,00,70,00,72,00,65,00,66,00,63,00,6c,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,00,00
+"DllName"="C:\\Windows\\System32\\gpprefcl.dll"
+"EnableAsynchronousProcessing"=dword:00000001
+"EventSources"="(Group Policy Device Settings,Application)"
+"GenerateGroupPolicy"="GenerateGroupPolicyDevices"
+"PerUserLocalSettings"=dword:00000001
+"ProcessGroupPolicy"="ProcessGroupPolicyDevices"
+"ProcessGroupPolicyEx"="ProcessGroupPolicyExDevices"
+"DisplayName"=hex(2):40,00,66,00,64,00,65,00,70,00,6c,00,6f,00,79,00,2e,00,64,\
+  00,6c,00,6c,00,2c,00,2d,00,32,00,36,00,31,00,00,00
+"DllName"=hex(2):66,00,64,00,65,00,70,00,6c,00,6f,00,79,00,2e,00,64,00,6c,00,\
+  6c,00,00,00
+"EventSources"=hex(7):28,00,46,00,6f,00,6c,00,64,00,65,00,72,00,20,00,52,00,65,\
+  00,64,00,69,00,72,00,65,00,63,00,74,00,69,00,6f,00,6e,00,2c,00,41,00,70,00,\
+  70,00,6c,00,69,00,63,00,61,00,74,00,69,00,6f,00,6e,00,29,00,00,00,00,00
+"GenerateGroupPolicy"="GenerateGroupPolicy"
+"NoBackgroundPolicy"=dword:00000000
+"NoGPOListChanges"=dword:00000000
+"NoMachinePolicy"=dword:00000001
+"NoSlowLink"=dword:00000001
+"PerUserLocalSettings"=dword:00000001
+"ProcessGroupPolicyEx"="ProcessGroupPolicyEx"
+"DisplayName"=hex(2):40,00,67,00,70,00,70,00,72,00,65,00,66,00,63,00,6c,00,2e,\
+  00,64,00,6c,00,6c,00,2c,00,2d,00,32,00,32,00,00,00
+"DllName"="C:\\Windows\\System32\\gpprefcl.dll"
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicy"="ProcessGroupPolicyMitigationOptions"
+"RequiresSuccessfulRegistry"=dword:00000001
+"DllName"=hex(2):41,00,70,00,70,00,4d,00,61,00,6e,00,61,00,67,00,65,00,6d,00,\
+  65,00,6e,00,74,00,43,00,6f,00,6e,00,66,00,69,00,67,00,75,00,72,00,61,00,74,\
+  00,69,00,6f,00,6e,00,2e,00,64,00,6c,00,6c,00,00,00
+"ProcessGroupPolicy"="ProcessAppVPolicy"
+"RequiresSuccessfulRegistry"=dword:00000001
